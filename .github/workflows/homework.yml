@@ -11,7 +11,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v2
         with:
-          repository: codeschooluz/str_while_loop_test
+          repository: Codeschool-Python-Test/str_while_loop_test
           token: ${{secrets.TEST_KEY}}
           path: test
       - name: Install dependencies
